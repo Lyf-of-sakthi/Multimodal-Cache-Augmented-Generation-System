@@ -1,0 +1,6 @@
+streamlit
+pymupdf
+openai
+qdrant-client
+Pillow
+requests
