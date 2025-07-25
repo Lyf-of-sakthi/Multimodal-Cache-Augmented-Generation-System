@@ -107,7 +107,7 @@ def analyze_image_with_llama_vision(query: str, image_bytes: bytes):
         }
         
         payload = {
-            "model": "meta/llama-3.2-90b-vision-instruct",
+            "model": "nvidia/llama-3.1-nemotron-nano-vl-8b-v1",
             "messages": [
                 {
                     "role": "user",
