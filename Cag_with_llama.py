@@ -19,7 +19,7 @@ os.makedirs(CACHE_DIR, exist_ok=True)
 
 qdrant_client = QdrantClient(":memory:")
 client = OpenAI(
-    api_key="Your_apikey",
+    api_key="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",
     base_url="https://integrate.api.nvidia.com/v1"
 )
 
